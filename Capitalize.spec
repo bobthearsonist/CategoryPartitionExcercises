@@ -12,7 +12,7 @@ Parameters:
   e.      [property e]
   s.      [property s]
   x.      [property x]
-  empty.  [property empty]
+  empty.
 
 #[<string of delimiters>]
 Delimiters:
@@ -20,15 +20,19 @@ Delimiters:
   specified.[if s] [property specifiedDelimiters]
 
 #Environment
+#File length
+File length is:
+  Empty. [property empty]
+  Not empty.
+
 #File Content
 File contains:
-  Empty.
-  New lines.
-  Exclamations.
-  Delimiters. [if specifiedDelimiters]
-  Upper case meeting rules.
-  Uppercase not meeting rules.
-  All uppercase.
-  All lowercase.
-  Whitespace.
-  No whitespace.
+  New lines. [if !empty]
+  Exclamations. [if !empty]
+  Delimiters. [if !empty][if specifiedDelimiters]
+  Upper case meeting rules.[if !empty]
+  Uppercase not meeting rules.[if !empty]
+  All uppercase.[if !empty]
+  All lowercase.[if !empty]
+  Whitespace.[if !empty]
+  No whitespace.[if !empty]

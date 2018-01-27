@@ -1,0 +1,38 @@
+Concise Specification of the capitalize Utility
+
+	• NAME:
+capitalize - capitalizes words in a file.
+	• SYNOPSIS
+capitalize OPT <filename>
+
+where OPT can be zero or more of
+		○ -l
+		○ -e
+		○ -s [<string of delimiters>]
+		○ -x
+	• COMMAND-LINE ARGUMENTS AND OPTIONS
+filename: the file on which the capitalize operation has to be performed.
+-l: if specified, the capitalize utility will capitalize all the first characters in each new line, including the first line.
+-e: if specified, the capitalize utility will capitalize all the letters in each exclamatory sentence (i.e., in each sentence ending with a “!”).
+-s [<string of delimiters>]: if specified, the capitalize utility will capitalize the first character of each sentence. Sentences end by default with one of the characters ‘.’, ‘!’, or ‘?’. The optional string of delimiters can be used to specify an alternative set of sentence delimiters that replace the default ones.
+-x: if specified, the capitalize utility will lowercase all existing capital letters that do not meet the specified capitalization rules.
+If none of the above OPT flags is specified, capitalize capitalizes all whitespace delimited words in the file. Otherwise, the specified flags override the default behavior, as illustrated in the examples below.
+	• EXAMPLES OF USAGE
+Example 1: 
+capitalize file1.txt
+would capitalize the first character in every whitespace delimited word.
+Example 2: 
+capitalize -l file1.txt
+would  capitalize only the first character in every line.
+Example 3: 
+capitalize -e -s file1.txt
+would capitalize the first character in every sentence and every letter in every exclamatory sentence, where a sentence is defined as ending in one of the characters ‘.’, ‘!’, or ‘?’.
+
+Example 4: 
+capitalize -s , -x file1.txt
+would capitalize all and only the first character in each sentence, where a sentence is defined as ending in a comma (such as the fields in a csv file).
+	• NOTES
+
+If the character to be capitalized is not a letter, it is left unchanged.
+
+While the last command-line parameter provided is always treated as the filename, the OPT flags can be provided in any order.

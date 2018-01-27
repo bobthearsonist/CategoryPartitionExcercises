@@ -1,0 +1,52 @@
+
+Test Case 1  		<error>
+   Properties of the integer :  Negative
+
+
+Test Case 2  		<single>
+   Properties of the integer :  Zero
+
+
+Test Case 3  		<single>
+   Properties of the integer :  int max
+
+
+Test Case 4  		<single>
+   Properties of the integer :  10
+
+
+Test Case 5  		(Key = 1.3.1.)
+   Validity of filename      :  Contains invalid characters
+   Properties of the integer :  Non-Zero
+   Size of the file contents :  Less than numlines
+
+
+Test Case 6  		(Key = 1.3.2.)
+   Validity of filename      :  Contains invalid characters
+   Properties of the integer :  Non-Zero
+   Size of the file contents :  Greater than numlines
+
+
+Test Case 7  		(Key = 1.3.3.)
+   Validity of filename      :  Contains invalid characters
+   Properties of the integer :  Non-Zero
+   Size of the file contents :  Equal to numlines
+
+
+Test Case 8  		(Key = 2.3.1.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  Non-Zero
+   Size of the file contents :  Less than numlines
+
+
+Test Case 9  		(Key = 2.3.2.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  Non-Zero
+   Size of the file contents :  Greater than numlines
+
+
+Test Case 10 		(Key = 2.3.3.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  Non-Zero
+   Size of the file contents :  Equal to numlines
+

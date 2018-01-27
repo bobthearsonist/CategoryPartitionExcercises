@@ -10,12 +10,14 @@ Validity of filename:
 Properties of the integer:
   Negative. [error]
   Zero. [single]
-  Non-Zero. [property nonzero]
   int max. [single]
+  9. [single]
   10. [single]
+  11. [single]
+
 
 #content
 Size of the file contents:
-  Less than numlines. [if nonzero]
-  Greater than numlines. [if nonzero]
-  Equal to numlines. [if nonzero]
+  Less than numlines.
+  Greater than numlines.
+  Equal to numlines.

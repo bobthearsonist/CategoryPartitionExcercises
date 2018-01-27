@@ -12,41 +12,49 @@ Test Case 3  		<single>
 
 
 Test Case 4  		<single>
+   Properties of the integer :  9
+
+
+Test Case 5  		<single>
    Properties of the integer :  10
 
 
-Test Case 5  		(Key = 1.3.1.)
+Test Case 6  		<single>
+   Properties of the integer :  11
+
+
+Test Case 7  		(Key = 1.0.1.)
    Validity of filename      :  Contains invalid characters
-   Properties of the integer :  Non-Zero
+   Properties of the integer :  <n/a>
    Size of the file contents :  Less than numlines
 
 
-Test Case 6  		(Key = 1.3.2.)
+Test Case 8  		(Key = 1.0.2.)
    Validity of filename      :  Contains invalid characters
-   Properties of the integer :  Non-Zero
+   Properties of the integer :  <n/a>
    Size of the file contents :  Greater than numlines
 
 
-Test Case 7  		(Key = 1.3.3.)
+Test Case 9  		(Key = 1.0.3.)
    Validity of filename      :  Contains invalid characters
-   Properties of the integer :  Non-Zero
+   Properties of the integer :  <n/a>
    Size of the file contents :  Equal to numlines
 
 
-Test Case 8  		(Key = 2.3.1.)
+Test Case 10 		(Key = 2.0.1.)
    Validity of filename      :  Is a valid filename
-   Properties of the integer :  Non-Zero
+   Properties of the integer :  <n/a>
    Size of the file contents :  Less than numlines
 
 
-Test Case 9  		(Key = 2.3.2.)
+Test Case 11 		(Key = 2.0.2.)
    Validity of filename      :  Is a valid filename
-   Properties of the integer :  Non-Zero
+   Properties of the integer :  <n/a>
    Size of the file contents :  Greater than numlines
 
 
-Test Case 10 		(Key = 2.3.3.)
+Test Case 12 		(Key = 2.0.3.)
    Validity of filename      :  Is a valid filename
-   Properties of the integer :  Non-Zero
+   Properties of the integer :  <n/a>
    Size of the file contents :  Equal to numlines
 

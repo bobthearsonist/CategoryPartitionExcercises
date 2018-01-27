@@ -3,21 +3,20 @@
 
 #filename
 Validity of filename:
-  Contains invalid characters. [error]
+  Contains invalid characters. [error] [property valid]
   Is a valid filename.
 
 #numlines
 Properties of the integer:
   Negative. [error]
-  Zero. [single]
+  Zero. [property zero]
   int max. [single]
   9.
   10.
   11.
 
-
 #content
 Size of the file contents:
-  Less than numlines.
+  Less than numlines. [if !zero]
   Greater than numlines.
   Equal to numlines.

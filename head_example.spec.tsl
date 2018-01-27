@@ -1,60 +1,70 @@
 
 Test Case 1  		<error>
+   Validity of filename :  Contains invalid characters
+
+
+Test Case 2  		<error>
    Properties of the integer :  Negative
 
 
-Test Case 2  		<single>
+Test Case 3  		<single>
    Properties of the integer :  Zero
 
 
-Test Case 3  		<single>
+Test Case 4  		<single>
    Properties of the integer :  int max
 
 
-Test Case 4  		<single>
+Test Case 5  		(Key = 2.4.1.)
+   Validity of filename      :  Is a valid filename
    Properties of the integer :  9
-
-
-Test Case 5  		<single>
-   Properties of the integer :  10
-
-
-Test Case 6  		<single>
-   Properties of the integer :  11
-
-
-Test Case 7  		(Key = 1.0.1.)
-   Validity of filename      :  Contains invalid characters
-   Properties of the integer :  <n/a>
    Size of the file contents :  Less than numlines
 
 
-Test Case 8  		(Key = 1.0.2.)
-   Validity of filename      :  Contains invalid characters
-   Properties of the integer :  <n/a>
+Test Case 6  		(Key = 2.4.2.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  9
    Size of the file contents :  Greater than numlines
 
 
-Test Case 9  		(Key = 1.0.3.)
-   Validity of filename      :  Contains invalid characters
-   Properties of the integer :  <n/a>
+Test Case 7  		(Key = 2.4.3.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  9
    Size of the file contents :  Equal to numlines
 
 
-Test Case 10 		(Key = 2.0.1.)
+Test Case 8  		(Key = 2.5.1.)
    Validity of filename      :  Is a valid filename
-   Properties of the integer :  <n/a>
+   Properties of the integer :  10
    Size of the file contents :  Less than numlines
 
 
-Test Case 11 		(Key = 2.0.2.)
+Test Case 9  		(Key = 2.5.2.)
    Validity of filename      :  Is a valid filename
-   Properties of the integer :  <n/a>
+   Properties of the integer :  10
    Size of the file contents :  Greater than numlines
 
 
-Test Case 12 		(Key = 2.0.3.)
+Test Case 10 		(Key = 2.5.3.)
    Validity of filename      :  Is a valid filename
-   Properties of the integer :  <n/a>
+   Properties of the integer :  10
+   Size of the file contents :  Equal to numlines
+
+
+Test Case 11 		(Key = 2.6.1.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  11
+   Size of the file contents :  Less than numlines
+
+
+Test Case 12 		(Key = 2.6.2.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  11
+   Size of the file contents :  Greater than numlines
+
+
+Test Case 13 		(Key = 2.6.3.)
+   Validity of filename      :  Is a valid filename
+   Properties of the integer :  11
    Size of the file contents :  Equal to numlines
 

@@ -3,7 +3,7 @@
 
 #filename
 Validity of filename:
-  Contains invalid characters.
+  Contains invalid characters. [error]
   Is a valid filename.
 
 #numlines
@@ -11,9 +11,9 @@ Properties of the integer:
   Negative. [error]
   Zero. [single]
   int max. [single]
-  9. [single]
-  10. [single]
-  11. [single]
+  9.
+  10.
+  11.
 
 
 #content

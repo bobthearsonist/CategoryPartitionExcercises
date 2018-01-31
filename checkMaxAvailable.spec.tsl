@@ -1,0 +1,240 @@
+
+Test Case 1  		<single>
+   name value :  contains whitespace
+
+
+Test Case 2  		<error>
+   name value :  null
+
+
+Test Case 3  		<single>
+   name length :  0
+
+
+Test Case 4  		<single>
+   name length :  256
+
+
+Test Case 5  		<single>
+   name length :  257
+
+
+Test Case 6  		<error>
+   cardNum is valid (card exists) :  no
+
+
+Test Case 7  		<single>
+   cardNum value :  all 0s
+
+
+Test Case 8  		<single>
+   cardNum value :  max
+
+
+Test Case 9  		<error>
+   cardNum length :  < 16 digits
+
+
+Test Case 10 		<error>
+   cardNum length :  > 16 digits
+
+
+Test Case 11 		<error>
+   IDCode is valid (matches card) :  no
+
+
+Test Case 12 		<single>
+   IDCode value :  000
+
+
+Test Case 13 		<single>
+   IDCode value :  max
+
+
+Test Case 14 		<error>
+   IDCode length :  4 digits
+
+
+Test Case 15 		<error>
+   IDCode length :  < 3 digits
+
+
+Test Case 16 		<single>
+   date :  less than today
+
+
+Test Case 17 		<single>
+   date :  greater than today
+
+
+Test Case 18 		<error>
+   date :  greater than expiration date
+
+
+Test Case 19 		(Key = 1.0.4.1.3.1.1.3.3.4.1.)
+   amount available               :  negative
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Visa
+
+
+Test Case 20 		(Key = 1.0.4.1.3.1.1.3.3.4.2.)
+   amount available               :  negative
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Mastercard
+
+
+Test Case 21 		(Key = 1.0.4.1.3.1.1.3.3.4.3.)
+   amount available               :  negative
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Visa Electron
+
+
+Test Case 22 		(Key = 1.0.4.1.3.1.1.3.3.4.4.)
+   amount available               :  negative
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  American express
+
+
+Test Case 23 		(Key = 2.0.4.1.3.1.1.3.3.4.1.)
+   amount available               :  positive
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Visa
+
+
+Test Case 24 		(Key = 2.0.4.1.3.1.1.3.3.4.2.)
+   amount available               :  positive
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Mastercard
+
+
+Test Case 25 		(Key = 2.0.4.1.3.1.1.3.3.4.3.)
+   amount available               :  positive
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Visa Electron
+
+
+Test Case 26 		(Key = 2.0.4.1.3.1.1.3.3.4.4.)
+   amount available               :  positive
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  American express
+
+
+Test Case 27 		(Key = 3.0.4.1.3.1.1.3.3.4.1.)
+   amount available               :  0
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Visa
+
+
+Test Case 28 		(Key = 3.0.4.1.3.1.1.3.3.4.2.)
+   amount available               :  0
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Mastercard
+
+
+Test Case 29 		(Key = 3.0.4.1.3.1.1.3.3.4.3.)
+   amount available               :  0
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  Visa Electron
+
+
+Test Case 30 		(Key = 3.0.4.1.3.1.1.3.3.4.4.)
+   amount available               :  0
+   name value                     :  <n/a>
+   name length                    :  random value (0,256]
+   cardNum is valid (card exists) :  yes
+   cardNum value                  :  random
+   cardNum length                 :  16 digits
+   IDCode is valid (matches card) :  yes
+   IDCode value                   :  random 3 digits
+   IDCode length                  :  3 digits
+   date                           :  less than expiration date
+   cardType                       :  American express
+

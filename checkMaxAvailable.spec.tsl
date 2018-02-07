@@ -19,24 +19,24 @@ Test Case 5  		<single>
    name length :  257
 
 
-Test Case 6  		<error>
-   cardNum is valid (card exists) :  no
-
-
-Test Case 7  		<single>
+Test Case 6  		<single>
    cardNum value :  all 0s
 
 
-Test Case 8  		<single>
+Test Case 7  		<single>
    cardNum value :  max
 
 
-Test Case 9  		<error>
+Test Case 8  		<error>
    cardNum length :  < 16 digits
 
 
-Test Case 10 		<error>
+Test Case 9  		<error>
    cardNum length :  > 16 digits
+
+
+Test Case 10 		<error>
+   cardNum is valid (card exists) :  no
 
 
 Test Case 11 		<error>
@@ -71,13 +71,13 @@ Test Case 18 		<error>
    date :  greater than expiration date
 
 
-Test Case 19 		(Key = 1.0.4.1.3.1.1.3.3.4.1.)
+Test Case 19 		(Key = 1.0.4.3.1.1.1.3.3.4.1.)
    amount available               :  negative
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -85,13 +85,13 @@ Test Case 19 		(Key = 1.0.4.1.3.1.1.3.3.4.1.)
    cardType                       :  Visa
 
 
-Test Case 20 		(Key = 1.0.4.1.3.1.1.3.3.4.2.)
+Test Case 20 		(Key = 1.0.4.3.1.1.1.3.3.4.2.)
    amount available               :  negative
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -99,13 +99,13 @@ Test Case 20 		(Key = 1.0.4.1.3.1.1.3.3.4.2.)
    cardType                       :  Mastercard
 
 
-Test Case 21 		(Key = 1.0.4.1.3.1.1.3.3.4.3.)
+Test Case 21 		(Key = 1.0.4.3.1.1.1.3.3.4.3.)
    amount available               :  negative
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -113,13 +113,13 @@ Test Case 21 		(Key = 1.0.4.1.3.1.1.3.3.4.3.)
    cardType                       :  Visa Electron
 
 
-Test Case 22 		(Key = 1.0.4.1.3.1.1.3.3.4.4.)
+Test Case 22 		(Key = 1.0.4.3.1.1.1.3.3.4.4.)
    amount available               :  negative
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -127,13 +127,13 @@ Test Case 22 		(Key = 1.0.4.1.3.1.1.3.3.4.4.)
    cardType                       :  American express
 
 
-Test Case 23 		(Key = 2.0.4.1.3.1.1.3.3.4.1.)
+Test Case 23 		(Key = 2.0.4.3.1.1.1.3.3.4.1.)
    amount available               :  positive
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -141,13 +141,13 @@ Test Case 23 		(Key = 2.0.4.1.3.1.1.3.3.4.1.)
    cardType                       :  Visa
 
 
-Test Case 24 		(Key = 2.0.4.1.3.1.1.3.3.4.2.)
+Test Case 24 		(Key = 2.0.4.3.1.1.1.3.3.4.2.)
    amount available               :  positive
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -155,13 +155,13 @@ Test Case 24 		(Key = 2.0.4.1.3.1.1.3.3.4.2.)
    cardType                       :  Mastercard
 
 
-Test Case 25 		(Key = 2.0.4.1.3.1.1.3.3.4.3.)
+Test Case 25 		(Key = 2.0.4.3.1.1.1.3.3.4.3.)
    amount available               :  positive
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -169,13 +169,13 @@ Test Case 25 		(Key = 2.0.4.1.3.1.1.3.3.4.3.)
    cardType                       :  Visa Electron
 
 
-Test Case 26 		(Key = 2.0.4.1.3.1.1.3.3.4.4.)
+Test Case 26 		(Key = 2.0.4.3.1.1.1.3.3.4.4.)
    amount available               :  positive
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -183,13 +183,13 @@ Test Case 26 		(Key = 2.0.4.1.3.1.1.3.3.4.4.)
    cardType                       :  American express
 
 
-Test Case 27 		(Key = 3.0.4.1.3.1.1.3.3.4.1.)
+Test Case 27 		(Key = 3.0.4.3.1.1.1.3.3.4.1.)
    amount available               :  0
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -197,13 +197,13 @@ Test Case 27 		(Key = 3.0.4.1.3.1.1.3.3.4.1.)
    cardType                       :  Visa
 
 
-Test Case 28 		(Key = 3.0.4.1.3.1.1.3.3.4.2.)
+Test Case 28 		(Key = 3.0.4.3.1.1.1.3.3.4.2.)
    amount available               :  0
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -211,13 +211,13 @@ Test Case 28 		(Key = 3.0.4.1.3.1.1.3.3.4.2.)
    cardType                       :  Mastercard
 
 
-Test Case 29 		(Key = 3.0.4.1.3.1.1.3.3.4.3.)
+Test Case 29 		(Key = 3.0.4.3.1.1.1.3.3.4.3.)
    amount available               :  0
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits
@@ -225,13 +225,13 @@ Test Case 29 		(Key = 3.0.4.1.3.1.1.3.3.4.3.)
    cardType                       :  Visa Electron
 
 
-Test Case 30 		(Key = 3.0.4.1.3.1.1.3.3.4.4.)
+Test Case 30 		(Key = 3.0.4.3.1.1.1.3.3.4.4.)
    amount available               :  0
    name value                     :  <n/a>
    name length                    :  random value (0,256]
-   cardNum is valid (card exists) :  yes
    cardNum value                  :  random
    cardNum length                 :  16 digits
+   cardNum is valid (card exists) :  yes
    IDCode is valid (matches card) :  yes
    IDCode value                   :  random 3 digits
    IDCode length                  :  3 digits

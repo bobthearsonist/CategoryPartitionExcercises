@@ -25,19 +25,19 @@ name length:
   random value (0,256].
 
 #cardNum: a sequence of 16 digits
-cardNum is valid (card exists):
-  yes.
-  no. [error]
-
 cardNum value:
   all 0s. [single]
   max. [single]
-  random.
+  random. [property cardNumValue]
 
 cardNum length:
-  16 digits.
-  < 16 digits. [error]
-  > 16 digits. [error]
+  16 digits.    [property cardNumLength]
+  < 16 digits.  [error]
+  > 16 digits.  [error]
+
+cardNum is valid (card exists):
+  yes.  [if cardNumLength][if cardNumValue]
+  no. [error]
 
 #IDcode: a sequence of max 3 digits
 IDCode is valid (matches card):
